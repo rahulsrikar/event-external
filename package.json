@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "SERVER=http://localhost:8082 node server.js",
-    "test": "SERVER=http://localhost:8082 nyc --temp-dir=tmp mocha --exit"
+    "start": "SERVER=http://localhost:8081 node server.js",
+    "test": "SERVER=http://localhost:8081 nyc --temp-dir=tmp mocha --exit"
   },
   "keywords": [],
   "author": "",
